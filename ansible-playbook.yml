@@ -13,5 +13,5 @@
     command : sudo systemctl start docker
 
   - name : Deploy Docker Container
-    command : docker run -itd -p 8084:8081 hardik202/project-demo:1
+    command : docker run -itd -p 8085:8081 hardik202/project:1
 
